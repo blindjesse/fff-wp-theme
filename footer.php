@@ -18,7 +18,7 @@
 	<footer id="colophon" class="site-footer <?php echo wp_bootstrap_starter_bg_class(); ?>" role="contentinfo">
 		<div class="container pt-3 pb-3">
             <div class="site-info">
-                &copy; <?php echo date('Y'); ?> <a href="http://www.ffotm.org">Flagstaff Friends of Traditional Music</a> TEST TEST TEST
+                &copy; <?php echo date('Y'); ?> <a href="http://www.ffotm.org">Flagstaff Friends of Traditional Music</a>
                 <span class="sep"> | </span>
                 All Rights Reserved
 
