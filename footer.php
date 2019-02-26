@@ -20,7 +20,7 @@
             <div class="site-info">
                 &copy; <?php echo date('Y'); ?> <a href="http://www.ffotm.org">Flagstaff Friends of Traditional Music</a>
                 <span class="sep"> | </span>
-                All Rights Reserved TEST
+                All Rights Reserved
 
             </div><!-- close .site-info -->
 		</div>
