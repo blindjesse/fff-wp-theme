@@ -248,8 +248,9 @@ h1.entry-title {
 }
 
 h2.entry-title {
-  border-bottom: 0px solid #eaecef;
+  border-bottom: 1px solid #eaecef;
 }
+
 h3.widget-title {
   font-size: 1.2rem;
 }
@@ -690,7 +691,7 @@ a img.aligncenter {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0;
+  margin: 0.5em 0 0;
 }
 
 .page-links {
@@ -1049,8 +1050,22 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
   background: #F6E3CB;
 }
 
+h2.entry-title {
+  border-bottom: 0px solid #eaecef;
+  margin-bottom: 0.5rem;
+}
+
 .wpcf7-captchac {
   width: auto;
   padding: 0;
 }
 
+h2 {
+  color: #005c5c;  
+}
+
+@media only screen and (max-width: 960px) {
+  .cell-sep-bottom {
+    border-bottom: 1rem solid #2d1a10;
+  }
+}

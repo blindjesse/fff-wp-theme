@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<section id="primary" class="content-area col-sm">
 		<main id="main" class="site-main" role="main">
-<h1 class="mt-3">The Latest News</h1>
+<h1 class="mt-3 mb-0 d-inline-block border-bottom border-dark">News</h1>
 
 		<?php
 		if ( have_posts() ) :
