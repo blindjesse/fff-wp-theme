@@ -20,9 +20,10 @@ function wp_bootstrap_starter_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'wp_bootstrap_starter_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => 'fff',
-		'width'                  => 1000,
-		'height'                 => 250,
+//		'width'                  => 1140,
+//		'height'                 => 596,
 		'flex-height'            => true,
+		'flex-width'             => true,
 		'wp-head-callback'       => 'wp_bootstrap_starter_header_style',
 	) ) );
 }

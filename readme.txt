@@ -1,4 +1,9 @@
+=== Flag Folk Festival Theme
+
+Developed from WP Bootstrap Starter theme (see below) by Jesse Anderson.
+
 === WP Bootstrap Starter ===
+
 
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
 Requires at least: 4.0

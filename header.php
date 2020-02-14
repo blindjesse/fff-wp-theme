@@ -22,24 +22,20 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="container my-3 p-0 site">
+<div id="page" class="container my-0 p-0 site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
-	<header id="masthead" class="site-header navbar-static-top mx-0 justify-content-center <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
-        <div class="container">
+	<header id="masthead" class="site-header navbar-static-top m-0 justify-content-center <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
+        <div class="container p-0">
             <div class="intro">
-                <div class="row justify-content-center" id="ffotm">
-                  <a href="http://www.ffotm.org">Flagstaff Friends of Traditional Music</a>&nbsp;Presents The
-                </div>
-                <div class="row justify-content-center" id="ffflogo">
-                  <a href="/">Flagstaff Folk Festival</a>
-                </div>
-                <div class="row justify-content-center" id="date">
-                  June 29-30 2019
+                <div class="row justify-content-center m-0" id="ffotm">
+<div class="col p-0">
+<a href="/"><img src="<?php header_image(); ?>"></a>
+</div>
                 </div>
 
             </div>
-            <nav class="navbar navbar-expand-xl p-0 navbar-dark">
+            <nav class="navbar navbar-expand-xl border-bottom border-dark pb-1 pt-0 navbar-dark">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
