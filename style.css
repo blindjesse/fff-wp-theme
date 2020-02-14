@@ -1,5 +1,5 @@
 /*
-Theme Name: fff-wp-theme-blue
+Theme Name: fff-wp-theme-2020
 Theme URI: https://afterimagedesigns.com/wp-bootstrap-starter/
 GitHub Theme URI: blindjesse/fff-wp-theme
 /005
@@ -997,23 +997,23 @@ footer#colophon {
 --------------------------------------------------------------*/
 /* side color */
 body {
-  background: #1f2a2f;  
+  background: #2d1f30;  
 }
 
 /* footer and separator */
 #page  {
-  background-color: #48483b;
+  background-color: #262626;
 }
 
 @media only screen and (max-width: 960px) {
   .cell-sep-bottom {
-    border-bottom: 1rem solid #48483b;
+    border-bottom: 1rem solid #262626;
   }
 }
 
 /* main text background */
 #content, #footer-widget {
-  background: #fefff3;
+  background: #fefefe;
 }
 
 body:not(.theme-preset-active) footer#colophon {

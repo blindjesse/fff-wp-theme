@@ -68,7 +68,7 @@ function wp_bootstrap_starter_customize_register( $wp_customize ) {
       ) ) );*/
 
     $wp_customize->add_setting( 'preset_style_setting', array(
-        'default'   => 'default',
+        'default'   => 'montserrat-merriweather',
         'type'       => 'theme_mod',
         'capability' => 'edit_theme_options',
         'sanitize_callback' => 'wp_filter_nohtml_kses',
